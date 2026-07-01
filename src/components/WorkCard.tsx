@@ -11,12 +11,18 @@ interface WorkProps {
     usageScene: string;
     description: string;
     careNote: string;
+    image?: string;
   };
 }
 
 const WorkCard: React.FC<WorkProps> = ({ work }) => {
   return (
     <div className="card">
+      {work.image && (
+        <div style={{ height: '200px', overflow: 'hidden', marginBottom: '1rem' }}>
+          <img src={work.image} alt={work.name} loading="lazy" decoding="async" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '2px 2px 0 0' }} />
+        </div>
+      )}
       <div className="card-tag">{work.category}</div>
       <h3 className="card-title">{work.name}</h3>
       <p className="card-desc">{work.description}</p>

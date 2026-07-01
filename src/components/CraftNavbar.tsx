@@ -22,7 +22,7 @@ const CraftNavbar = () => {
               {link.label}
             </Link>
           ))}
-          <Link to="/workshop" className="btn-stamp" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}>
+          <Link to="/contact" className="btn-stamp" style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}>
             体験を予約相談
           </Link>
         </div>
@@ -38,7 +38,7 @@ const CraftNavbar = () => {
             {link.label}
           </Link>
         ))}
-        <Link to="/workshop" className="btn-stamp" onClick={closeMenu}>
+        <Link to="/contact" className="btn-stamp" onClick={closeMenu}>
           体験を予約相談
         </Link>
       </div>

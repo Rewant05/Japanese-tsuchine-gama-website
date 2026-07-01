@@ -30,21 +30,21 @@ export const siteData = {
   
   // Ceramic Works Data
   works: [
-    { id: 1, name: "朝霧の飯碗", category: "飯碗", clayType: "白土", glazeType: "透明釉", firingMethod: "酸化焼成", usageScene: "毎日の朝食に", description: "朝の光を思わせる、静かでやさしい白。手にすっと馴染む形です。", careNote: "電子レンジ・食洗機はお控えください。" },
-    { id: 2, name: "灰釉の湯呑み", category: "湯呑み", clayType: "半磁器土", glazeType: "灰釉", firingMethod: "還元焼成", usageScene: "ほっと一息つくお茶の時間に", description: "自然の灰が作り出す、深みのある緑と茶のグラデーション。", careNote: "使い込むほどに景色が変わります。" },
-    { id: 3, name: "黒土の小皿", category: "小皿", clayType: "黒土", glazeType: "焼き締め", firingMethod: "還元焼成", usageScene: "お茶請けや副菜の盛り付けに", description: "土本来の力強さとざらりとした質感が魅力の小皿。", careNote: "水気のあるものは早めに洗い流してください。" },
-    { id: 4, name: "粉引の花器", category: "花器", clayType: "赤土", glazeType: "粉引", firingMethod: "酸化焼成", usageScene: "野の花を飾る", description: "ぽってりとした白い化粧土から、下地の赤土がほんのり透ける素朴な花器。", careNote: "水漏れ防止処理を施していますが、敷物を敷いてご使用ください。" },
-    { id: 5, name: "焼締めの酒器", category: "酒器", clayType: "ブレンド土", glazeType: "なし（焼き締め）", firingMethod: "薪窯焼成", usageScene: "晩酌の時間に", description: "炎が直接触れることで生まれる、唯一無二の景色「緋襷（ひだすき）」。", careNote: "お酒の香りを引き立てます。使用後はよく乾燥させてください。" },
-    { id: 6, name: "藁灰釉の大皿", category: "大皿", clayType: "信楽土", glazeType: "藁灰釉", firingMethod: "還元焼成", usageScene: "人が集まる食卓の主役に", description: "藁灰が溶け合って生まれる、ふんわりとした白濁が美しい大皿。", careNote: "油染みがつきやすいため、使用前に水にくぐらせることをおすすめします。" }
+    { id: 1, name: "朝霧の飯碗", category: "飯碗", clayType: "白土", glazeType: "透明釉", firingMethod: "酸化焼成", usageScene: "毎日の朝食に", description: "朝の光を思わせる、静かでやさしい白。手にすっと馴染む形です。", careNote: "電子レンジ・食洗機はお控えください。", image: "/images/bowl.png" },
+    { id: 2, name: "灰釉の湯呑み", category: "湯呑み", clayType: "半磁器土", glazeType: "灰釉", firingMethod: "還元焼成", usageScene: "ほっと一息つくお茶の時間に", description: "自然の灰が作り出す、深みのある緑と茶のグラデーション。", careNote: "使い込むほどに景色が変わります。", image: "/images/cup.png" },
+    { id: 3, name: "黒土の小皿", category: "小皿", clayType: "黒土", glazeType: "焼き締め", firingMethod: "還元焼成", usageScene: "お茶請けや副菜の盛り付けに", description: "土本来の力強さとざらりとした質感が魅力の小皿。", careNote: "水気のあるものは早めに洗い流してください。", image: "/images/plate.png" },
+    { id: 4, name: "粉引の花器", category: "花器", clayType: "赤土", glazeType: "粉引", firingMethod: "酸化焼成", usageScene: "野の花を飾る", description: "ぽってりとした白い化粧土から、下地の赤土がほんのり透ける素朴な花器。", careNote: "水漏れ防止処理を施していますが、敷物を敷いてご使用ください。", image: "/images/bowl.png" },
+    { id: 5, name: "焼締めの酒器", category: "酒器", clayType: "ブレンド土", glazeType: "なし（焼き締め）", firingMethod: "薪窯焼成", usageScene: "晩酌の時間に", description: "炎が直接触れることで生まれる、唯一無二の景色「緋襷（ひだすき）」。", careNote: "お酒の香りを引き立てます。使用後はよく乾燥させてください。", image: "/images/cup.png" },
+    { id: 6, name: "藁灰釉の大皿", category: "大皿", clayType: "信楽土", glazeType: "藁灰釉", firingMethod: "還元焼成", usageScene: "人が集まる食卓の主役に", description: "藁灰が溶け合って生まれる、ふんわりとした白濁が美しい大皿。", careNote: "油染みがつきやすいため、使用前に水にくぐらせることをおすすめします。", image: "/images/plate.png" }
   ],
   
   // Workshop Data
   workshops: [
-    { id: 1, name: "はじめての手びねり体験", duration: "約2時間", difficulty: "やさしい（初心者歓迎）", audience: "大人から子供まで", whatVisitorsMake: "お茶碗や小鉢を1〜2点", whatToBring: "エプロン、汚れてもいい服装", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談" },
-    { id: 2, name: "ろくろ体験", duration: "約2時間半", difficulty: "すこし挑戦（中学生以上）", audience: "土の感触をじっくり味わいたい方", whatVisitorsMake: "湯呑みや飯碗を2〜3点", whatToBring: "エプロン、タオル、髪をまとめるゴム（長い場合）", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談" },
-    { id: 3, name: "親子でつくる小皿", duration: "約1時間半", difficulty: "とてもやさしい", audience: "親子（小学生以下のお子様と保護者）", whatVisitorsMake: "スタンプや型抜きを使った小皿2点", whatToBring: "エプロン、汚れてもいい服装", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談" },
-    { id: 4, name: "釉薬を選ぶ器づくり", duration: "約2時間", difficulty: "やさしい（初心者歓迎）", audience: "色合いにこだわりたい方", whatVisitorsMake: "手びねりで器を作り、3種類の釉薬から指定", whatToBring: "エプロン", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談" },
-    { id: 5, name: "静かな午前の陶芸時間", duration: "約3時間", difficulty: "じっくり（経験者も歓迎）", audience: "静かに土と向き合いたい方", whatVisitorsMake: "自由制作（大皿や花器なども可）", whatToBring: "エプロン、タオル、作りたいもののイメージ", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談" }
+    { id: 1, name: "はじめての手びねり体験", duration: "約2時間", difficulty: "やさしい（初心者歓迎）", audience: "大人から子供まで", whatVisitorsMake: "お茶碗や小鉢を1〜2点", whatToBring: "エプロン、汚れてもいい服装", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談", image: "/images/workshop1.png" },
+    { id: 2, name: "ろくろ体験", duration: "約2時間半", difficulty: "すこし挑戦（中学生以上）", audience: "土の感触をじっくり味わいたい方", whatVisitorsMake: "湯呑みや飯碗を2〜3点", whatToBring: "エプロン、タオル、髪をまとめるゴム（長い場合）", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談", image: "/images/workshop2.png" },
+    { id: 3, name: "親子でつくる小皿", duration: "約1時間半", difficulty: "とてもやさしい", audience: "親子（小学生以下のお子様と保護者）", whatVisitorsMake: "スタンプや型抜きを使った小皿2点", whatToBring: "エプロン、汚れてもいい服装", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談", image: "/images/workshop1.png" },
+    { id: 4, name: "釉薬を選ぶ器づくり", duration: "約2時間", difficulty: "やさしい（初心者歓迎）", audience: "色合いにこだわりたい方", whatVisitorsMake: "手びねりで器を作り、3種類の釉薬から指定", whatToBring: "エプロン", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談", image: "/images/workshop2.png" },
+    { id: 5, name: "静かな午前の陶芸時間", duration: "約3時間", difficulty: "じっくり（経験者も歓迎）", audience: "静かに土と向き合いたい方", whatVisitorsMake: "自由制作（大皿や花器なども可）", whatToBring: "エプロン、タオル、作りたいもののイメージ", safetyNote: "陶芸体験では道具、粘土、釉薬、窯などを扱う場合があります。実際の体験では工房スタッフの案内に従い、安全にご参加ください。", inquiryCta: "体験を予約相談", image: "/images/workshop1.png" }
   ],
   
   // Process Steps

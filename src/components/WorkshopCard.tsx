@@ -12,12 +12,18 @@ interface WorkshopProps {
     whatToBring: string;
     safetyNote: string;
     inquiryCta: string;
+    image?: string;
   };
 }
 
 const WorkshopCard: React.FC<WorkshopProps> = ({ workshop }) => {
   return (
     <div className="card">
+      {workshop.image && (
+        <div style={{ height: '200px', overflow: 'hidden', marginBottom: '1rem' }}>
+          <img src={workshop.image} alt={workshop.name} loading="lazy" decoding="async" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '2px 2px 0 0' }} />
+        </div>
+      )}
       <div className="card-tag">{workshop.duration}</div>
       <h3 className="card-title">{workshop.name}</h3>
       
